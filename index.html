@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Oswald:wght@350&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<title>Portfolio</title>
+</head>
+<body class="back">
+<nav class="navbar bg-body-tertiary fixed-top bg-light" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button " class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                <!-- About section -->
+
+            <li class="nav-item">
+              <a class="nav-link" onclick="scrollwin()" aria-current="page" href="#">About</a>
+            </li>
+            <script>
+              function scrollwin(){
+                window.scrollTo(0,500);
+              }
+            </script>
+
+                  <!-- Skills section -->
+
+            <li class="nav-item">
+              <a class="nav-link" onclick="skillswin()" href="#">Skills</a>
+            </li>
+            <script>
+              function skillswin(){
+                window.scrollTo(0,980);
+              }
+            </script>
+
+             <!-- project section -->
+
+            <li class="nav-item">
+                <a class="nav-link" onclick="projectwin()"  href="#">Projects </a>
+            </li>
+            <script>
+              function projectwin(){
+                window.scrollTo(0,1550);
+              }
+            </script>
+
+                  <!-- contacts section -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" onclick="contactwin()" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contacts
+            </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/mohammad-khan-356105227">Linkedin</a></li>
+                <li><a class="dropdown-item" href="https://github.com/Mohammadkhan18">Github</a></li>
+                <li>
+                   <a  class="dropdown-item" onclick="myFunction()"  href="#">Mail</a>
+                </li>
+                <li><a class="dropdown-item" href="https://twitter.com/Mohammadkhan_18">Twitter</a></li>
+                <hr class="dropdown-divider">
+              </ul>
+            </li>
+          </ul>
+          <script>
+            function contactwin(){
+              window.scrollTo(0,2060);
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+  <div class="wrap">
+     <div class="headercard1">  
+  <div class="carditem"> 
+    <h1 class=" centre">
+        Hi,<br>
+            I'am Mohammad khan <div class="roller">
+              <span id="rolltext"> student<br/>
+                Front-end developer <br/></span><br/>
+              </div> 
+        </h1> 
+        <button type="button" onclick="show()" id="btnID" class="resbutton mt-4 ">Resume</button> 
+    </div>
+  </div>
+
+    <script>
+      function show(){
+      window.open("Resume.html" , "_blank");
+      }
+    </script>
+      <div class="headercard2">
+      <img src="Untitled design (4).png" class="img-flex" alt="image">
+    </div>
+  </div>
+  <div class="headercard3">
+      <h1 class="about"><u>About</u></h1>
+      <h3 class="h5 aboutsec"> "Hello my name is  Mohammad khan ,currently pursuing Computer science engineering in B,tech 3rd year
+       <br> I am passionate about web development and continually strive to improve my skills in JavaScript, HTML, and CSS. <br> I believe that these skills, combined with my creativity and problem-solving abilities, will enable me to create engaging and innovative web applications in the future."</h3>
+  </div>
+    <div class="headercard4">
+      <h1 class="about1 heading"><u>Skills</u></h1>
+      <div class="Skills" >
+        <div class="Skills-section">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAYJJREFUSEvllf0xRDEUR89WgA50gArQARWgElSCCugAFaCCLQEdmDOTmGy8vNw3+8aOcf/afcnNuV/5ZcGGbLEhLn8afA4sgecp1Zsj4w9gC7gDDCJk64L3gZdEugBuQ1RYu8dmeJNgB8Drb4HN8Az4BLajUPetW2oz3EuDdTQ32HIeAvawNDN8Tx+ugav02yo89frdyziX0jPr4THDxwQ7TrCy5/rWwX4H3gKbjYc6tZo9FFQOjxlepvUdwGvlfrP1emnuNyjXVmwIrLPQPCxvCVo7C7AFrucAPVw/1+y9pp/wlYmvwWWpdBoThZ5wlG360aoSfALcF/UYE4SocNSJnAIP9XWaAo4KRwhsIPXG1mRGhCNc6lzlyGSOCUfkRjSVa2wyW8Jh4NEb0ZXMIQEZEo5crbJVo89kT7ly34Xlt3ZIOEpxmEUya8Hxf0s4hvY2v0Uyrp17whEKYCo4Khxd+FRwVDhmB0eEowutJTPkkF6q3d5D3ztsaql754XX/x/4C7SvZR+uZb5OAAAAAElFTkSuQmCC"/>
+          <h3>Web Development</h3>
+          <li>Html</li>
+          <li>Css</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Python</li>
+        </div>
+        <div class="Skills-section">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAb5JREFUSEvNlosxBEEQhv+LABEgAkSACMgAESACMkAEyMBFgAgQATIgAupTs1u9vTuvreV01VbdPq6/6Z7uv2emBdlsQVzVgJcl7Ulak3Ql6SMsmufHkt4kzc3zZEylYJzfS9oM3gDsh993YUHcPkvaLYGXgk8kXZgQHiXthPsHSdvm3amky9wWpsBEeRAiI71cjaXApJyLTNzGoo+BfWp9ACmw/Taa+hj4UNJ1Il2lYFwcSbrxvmJgWzBD/Bow6SaQjsXAFActErMaMK1HcRaBKaTXicDrodiSYIqKtqFH+T1FxAgNW0ebNaLTUy7fk1OAGx/4Rlx+zO4xgoA6lVjNHlt/W0HdOuBzSWclVEljwa2q2Yj/Atz2tAUzAJ5+OeK2wn0fozDoc87GpLojJEMCgr5uZMi14BczUntV3bDotaWJwfhcsT6HIv7K5XlkVXdY/wpcUmC1e9ybUEMRo9HIW6rAasAUFqrY6rSXTL+1zFD+wMDwxZYDf4bBQAC9Q0AO3CxkKPU58ODwz1W1j5zU09ur5oUd7v7Q8B56tpNa77T0eAuclHNA4ATp08e28I4FMnuzVgrOOqr9YGHgbzFVch+shUHiAAAAAElFTkSuQmCC"/>
+         <h3> problem solving </h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic voluptates expedita aut amet inventore. Possimus reprehenderit repellendus quo optio natus sit excepturi eligendi nostrum consectetur dolore! Nobis eos repellat doloremque.</p>
+        </div>
+      </div>
+    </div>
+    <div class="headercard5">
+      <h1 class="about heading"><u>Projects</u></h1>
+      <div class="wrap">
+        <div class="carrd">
+          <img src="Screenshot (4).png" alt="..." width="100%">
+          <h4>MyHealth</h4>
+          <p>This website is build with Html and Css. MyHealth is a site that will help people to live their life healthly</p>
+          <a href="" class="resbutton">Visit</a>
+        </div>
+        <div class="carrd">
+          <img src="Screenshot (5).png" alt="..." width="100%">
+          <h4>Netflix Clone</h4>
+          <p class="Netflix">Netflix website have exactly features like Netflix offical site,created using Html and Css</p>
+          <a href="" class="resbutton">Visit</a>
+        </div>
+      </div>
+      <!-- <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col mb-5">
+      <div class="card text-bg-dark color border-secondary h-100 func3 ">
+        <img src="" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text"> </p>
+          <a href="https://mohammadkhan18.github.io/myhealth.github.io/" class="resbutton">Visit</a>
+        </div>
+        </div>
+      </div>
+       <div class="col mb-5">
+        <div class="card text-bg-dark color border-secondary h-100 card2 ">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"> </p>
+            <a href="https://mohammadkhan18.github.io/Netflix/" class="resbutton">Visit</a>
+          </div>
+      </div>
+    </div> -->
+    <!-- <div class="col">
+      <div class="card text-bg-dark color border-secondary h-100 card2 ">
+        <img src="Screenshot (5).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Moview Review</h5>
+          <p class="card-text">Netflix website have exactly features like Netflix offical site,created usind Html and Css </p>
+          <a href="https://mohammadkhan18.github.io/Netflix/" class="resbutton">Visit</a>
+        </div>
+    </div>
+  </div> -->
+  </div>
+    </div>
+    <div class="headercard6">
+      <h1 class="contacts heading"><u>Contacts</u></h1>
+    <div class="container">
+      <div class="card1">
+
+          <div class="slide slide1" style="right: 25px;">
+
+              <div class="content">
+
+                  <div class="icon">
+
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAARBJREFUSEvtl+0RwUAQhp90QAc6QAWoQAmoQAnoQAeohA7oAB3ogHlncmbnZmQS1iVm7J8kl7t7su9+zCWjJstq4tIocAvoOitxBS52z9jjDnB2hobt2sAtPMTgIbD/EngEHBoPngFbQCHQdfCBGqU9VkIIGGwKbFKAxbAJsQbmqcBKBkncA+SxSu1dKy31u4BX6yqBNdnGeALschU0HpSQGqd8ovJCYRlHX1AJbOt8CSyAFaB7mSBqCs/GYGAKk60CV3DgKPYxPK4Cd3DIdoH7pifHXdAdfDfy2jBo2L5zBSu5jnWAYzmTefwH/77Unv26UjklA9d22JOH6rtqDJ6mo23h8dYTVrhXo/4kknj9AOO5bx9DceH0AAAAAElFTkSuQmCC" class="iconimg"/>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="slide slide2" style="right: 25px;">
+
+              <div class="content">
+
+                  <h3>
+
+                      LinkedIn
+
+                  </h3>
+
+                  <p> <a href="https://www.linkedin.com/in/mohammad-khan-356105227"> Mohammad khan </a></p>
+
+              </div>
+
+          </div>
+        </div>
+       <div class="card2">
+
+              <div class="slide slide1" style="right: 15px;">
+
+                <div class="content">
+  
+                    <div class="icon">
+  
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAiZJREFUSEvllt01BUEQhOtGgAgQASJABkSACBABIkAEiIAMEAEiQASIgPPt2d7T2+Zndz3cB/1yz92dmerqrqnemeYUsznhagrwlqQFSett0s+SPiU9jiExFHhF0omkHUmLGQDA7yRdSiKZYtSAATmXtF87KLy/lnTcViK5tQRMKa9cSUdi603Sbo59DhjQ+0JZhyZB+bdT4ClgyguoieddarLfHIj20q5ba3/ZuxHLngKmP3sOhIwfJCEw3pEY4uFAguckCTu0wHP+P7kzbqJOIjCHvAZmqw5kIOlm2XdYDOtO7RH4QtJh2GCMx4BGxuztsY7AlGnZIdBfK+MYYGuHP4tWLNkhHjiV5UHb1zGgtpZ+cx19dNXzwFghavbR68tIdFh/hD3ca9yt59VHrUv5tTVnq+USBXYm6XQI8BRhWTKpG5IETpX6Lz1moNyGknTn+VKmMsQ4YD0lohFxRqeZ2EMkz6z1MYV1StFf3vtLBsIdtnuIIJizJFYKlIwBNQIKUTQQX26kb8PdqkDpSaC5Ei7wAOY2OslF0TLZRLZ8bRD0l2S8EaS8O3VnfQIky3XtIjcWYcZYM3HBCJVi8pGtHZbSB+8Yk1Si16acQcASEEqMOhFYLUgyzmwEBeivb7CSMwEOOxvobKaklDoVkTFMUXfyw69miQDRG+s5gLk93h7pKVrJ3oIasDGDPQnwS69TQUsAYqbb10m2PUOBa/0d/f7/Af8A+YtyH9j17mQAAAAASUVORK5CYII=" class="iconimg"/>
+  
+                    </div>
+  
+                </div>
+  
+            </div>
+  
+            <div class="slide slide2" style="right: 15px;">
+  
+                <div class="content">
+  
+                    <h3>
+  
+                        GitHub
+  
+                    </h3>
+  
+                    <p><a href="https://github.com/Mohammadkhan18">Mohammadkhan18</a></p>
+  
+                </div>
+
+          </div>
+
+      </div>
+      <div class="card3">
+
+        <div class="slide slide1" style="left: 15px;">
+
+            <div class="content">
+
+                <div class="icon">
+
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAapJREFUSEvtlv0xBEEQxd9FQAZkgAgQASJwIkAEiAARIAJE4GRABkIgAuqnerbm5mZnenaV++e6auvu6t706379MTvRkmyyJF6tiP9N+b+Qel3SqaQ9ez4k3Uu6lfRpmWza9/B7ocY4eZR0FB0qqYDDF0l8phYCOJT0ZUF1mDRjQBA/GXlN+pmk3QroXRJ+CQ78r6XEl5Iu7D9A55LeehwjLdnWDHnhAd/5SolzzggmrlcgOpN0XWONZJ5LINdc3xlnRI38PK9W/1idEv+VJLBzliOeSrpzZELz5JoqPeoiRr4NSdtpFzoC6YOc2HgVM/Y2TEscO7kGTaVmjpFwrcVzAcv84nPBxtTYE9uzzbCLGBA1phMPPN4LmP14acS4vl1Nk0FKzYcaY9d7vo+YMWHgx9Q621Qhi9LthNyszSHkrNqbklS1a5GOZKEQxLFT8wc7U4R7iLk0qLnHXKQ4ionJbsvmjgzD9srOYRIF80pwvAC4LHc7MUa1OzY4hxAyznRvFx7mUleH2pJxCIRLHQK2W7itPDzuBTLIWcuhWnO1+GrCroib5BoD/gFW7UcfC0psiQAAAABJRU5ErkJggg==" class="iconimg"/>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="slide slide2" style="left: 15px;">
+
+            <div class="content">
+
+                <h3>
+
+                   Twitter
+
+                </h3>
+
+                <p> <a href="https://twitter.com/Mohammadkhan_18"> Mohammadkhan_18 </a></p>
+
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="contact_form">
+      <form onsubmit="sendEmail(); reset();return false;" >
+        <h3>GET IN TOUCH</h3>
+        <input type="text" id="name" placeholder="Your name " required>
+        <input type="email" id="email" placeholder="Your email " required>
+        <textarea  id="message"  rows="4" placeholder="How can i help you?"></textarea>
+        <button type="submit"> Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+        Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "mohammadkhan6543210@gmail.com",
+    Password : "A5F7884A4F91DF7DBBC7CC308E470386F97D",
+    To : 'mohammadkhan6543210@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New contact form Enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+      }
+    </script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
