@@ -674,7 +674,7 @@ form button{
     font-size: 35px;
    }
   .headercard1{
-    width: 350px;
+    width: 4000px;
   }
   .btn{
     padding: 20px 15%;
@@ -682,8 +682,6 @@ form button{
   .img-flex{
     width: 250px;
    float: right;
-
-  margin-top: 200px;
 }
 .headercard3{
   width: 550px;
