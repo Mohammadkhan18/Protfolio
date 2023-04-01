@@ -674,19 +674,19 @@ form button{
     font-size: 35px;
    }
   .headercard1{
-    width: 400px;
+    width: 300px;
   }
   .btn{
     padding: 20px 15%;
   }
   .myimage{
-    width: 400px;
+    width: 250px;
    float: right;
    margin-right: 500px;
   margin-top: 200px;
 }
 .headercard3{
-  width: 650px;
+  width: 550px;
   height: fit-content;
 }
   .about{
@@ -700,13 +700,13 @@ form button{
 
   }
 .headercard4{
-  width: 650px;
+  width: 550px;
 }
 .headercard5{
-  width: 650px;
+  width: 550px;
 }
  .headercard6{
-  width: 650px;
+  width: 550px;
   align-items: center;
   text-align: center;
  }
