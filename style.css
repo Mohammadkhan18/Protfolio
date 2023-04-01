@@ -674,15 +674,15 @@ form button{
     font-size: 35px;
    }
   .headercard1{
-    width: 300px;
+    width: 350px;
   }
   .btn{
     padding: 20px 15%;
   }
-  .myimage{
+  .img-flex{
     width: 250px;
    float: right;
-   margin-right: 500px;
+
   margin-top: 200px;
 }
 .headercard3{
