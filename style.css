@@ -712,28 +712,37 @@ form button{
     font-size: 50px;
   }
 .card1 .slide.slide1{
-  width: 150px;
-  left: 20px;
+  width: 130px;
+  left: 0px;
+  margin: 0 0 0 30px;
 }
 .card1 .slide.slide2{
-  width: 150px;
-  left: 20px;
+  width: 130px;
+  left: 0px;
+  margin: 0 0 0 30px;
+  font-size: 15px;
 }
 .card2 .slide.slide1{
-  width: 150px;
-  left: 70px;
+  width: 130px;
+  left: 10px;
+  margin: 0 15px 0 0;
 }
 .card2 .slide.slide2{
-  width: 150px;
-  left: 70px;
+  width: 130px;
+  left: 10px;
+  margin: 0 15px 0 0;
+  font-size: 13px;
 }
 .card3 .slide.slide1{
-  width: 150px;
+  width: 130px;
   left: 30px;
+  margin: 0;
 }
 .card3 .slide.slide2{
-  width: 150px;
+  width: 130px;
   left: 30px;
+  margin: 0;
+  font-size: 13px;
 }
   .resume{
     margin-left: 0;
