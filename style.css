@@ -10,6 +10,7 @@ list-style: none;
 }
 .wrap{
   display: flex;
+  flex-wrap: wrap;
 }
 .headercard1{
   padding: 15px 25px;
@@ -208,7 +209,10 @@ a{
   font-family: "Oswald";
 }
 .Netflix{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+.moviereview{
+  margin-bottom: 45px;
 }
 .carrd a{
   margin: 5px;
@@ -702,6 +706,25 @@ form button{
 }
 .headercard5{
   width: 470px;
+}
+.carrd{
+  width: 150px;
+}
+.carrd2{
+  width: 150px;
+}
+.carrd3{
+  width: 150px;
+
+}
+.carrd4{
+  width: 150px;
+}
+.moviereview{
+  margin-bottom: 20px;
+}
+.Netflix{
+  margin-bottom: 20px;
 }
  .headercard6{
   width: 470px;
