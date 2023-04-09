@@ -8,6 +8,9 @@ list-style: none;
     font-family: 'Oswald' ;
     color: black;
 }
+.wrap1{
+display: flex;
+}
 .wrap{
   display: flex;
   flex-wrap: wrap;
