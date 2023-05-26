@@ -235,7 +235,7 @@ a{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0,0,0,.1),var(--main-color));
+   background: linear-gradient(var(--main-color),rgba(0,0,0,.1));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -849,6 +849,10 @@ form a{
     font-size: 50px;
     text-align: center;
   }
+  .headercard3{
+  width: 470px;
+  height: fit-content;
+}
   .aboutsec{
   
     font-size: 25px;
