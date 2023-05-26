@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Oswald:wght@350&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
@@ -35,40 +36,25 @@
                 <!-- About section -->
 
             <li class="nav-item">
-              <a class="nav-link" onclick="scrollwin()" aria-current="page" href="#">About</a>
+              <a class="nav-link"  aria-current="page" href="#about">About</a>
             </li>
-            <script>
-              function scrollwin(){
-                window.scrollTo(0,500);
-              }
-            </script>
 
                   <!-- Skills section -->
 
             <li class="nav-item">
-              <a class="nav-link" onclick="skillswin()" href="#">Skills</a>
+              <a class="nav-link"  href="#skill">Skills</a>
             </li>
-            <script>
-              function skillswin(){
-                window.scrollTo(0,980);
-              }
-            </script>
 
              <!-- project section -->
 
             <li class="nav-item">
-                <a class="nav-link" onclick="projectwin()"  href="#">Projects </a>
+                <a class="nav-link"  href="#portfolio">Projects </a>
             </li>
-            <script>
-              function projectwin(){
-                window.scrollTo(0,1550);
-              }
-            </script>
 
                   <!-- contacts section -->
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" onclick="contactwin()" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle"  href="#contact" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Contacts
             </a>
               <ul class="dropdown-menu">
@@ -82,11 +68,6 @@
               </ul>
             </li>
           </ul>
-          <script>
-            function contactwin(){
-              window.scrollTo(0,2060);
-            }
-          </script>
         </div>
       </div>
     </div>
@@ -115,11 +96,16 @@
       <img src="photo_2023-04-04_18-12-19.jpg" class="img-flex" alt="image">
     </div>
   </div>
+  <!-- ................About section........... -->
+  <section id="about">
   <div class="headercard3">
       <h1 class="about"><u>About</u></h1>
       <h3 class="h5 aboutsec"> "Hello my name is  Mohammad khan ,currently pursuing Computer science engineering in B,tech 3rd year
        <br> I am passionate about web development and continually strive to improve my skills in JavaScript, HTML, and CSS. <br> I believe that these skills, combined with my creativity and problem-solving abilities, will enable me to create engaging and innovative web applications in the future."</h3>
   </div>
+</section>
+<!-- ...............Skill section........... -->
+<section id="skill">
     <div class="headercard4">
       <h1 class="about1 heading"><u>Skills</u></h1>
       <div class="Skills" >
@@ -135,40 +121,99 @@
         <div class="Skills-section">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAb5JREFUSEvNlosxBEEQhv+LABEgAkSACMgAESACMkAEyMBFgAgQATIgAupTs1u9vTuvreV01VbdPq6/6Z7uv2emBdlsQVzVgJcl7Ulak3Ql6SMsmufHkt4kzc3zZEylYJzfS9oM3gDsh993YUHcPkvaLYGXgk8kXZgQHiXthPsHSdvm3amky9wWpsBEeRAiI71cjaXApJyLTNzGoo+BfWp9ACmw/Taa+hj4UNJ1Il2lYFwcSbrxvmJgWzBD/Bow6SaQjsXAFActErMaMK1HcRaBKaTXicDrodiSYIqKtqFH+T1FxAgNW0ebNaLTUy7fk1OAGx/4Rlx+zO4xgoA6lVjNHlt/W0HdOuBzSWclVEljwa2q2Yj/Atz2tAUzAJ5+OeK2wn0fozDoc87GpLojJEMCgr5uZMi14BczUntV3bDotaWJwfhcsT6HIv7K5XlkVXdY/wpcUmC1e9ybUEMRo9HIW6rAasAUFqrY6rSXTL+1zFD+wMDwxZYDf4bBQAC9Q0AO3CxkKPU58ODwz1W1j5zU09ur5oUd7v7Q8B56tpNa77T0eAuclHNA4ATp08e28I4FMnuzVgrOOqr9YGHgbzFVch+shUHiAAAAAElFTkSuQmCC"/>
          <h3> problem solving </h3>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic voluptates expedita aut amet inventore. Possimus reprehenderit repellendus quo optio natus sit excepturi eligendi nostrum consectetur dolore! Nobis eos repellat doloremque.</p>
+         <p>I have a great problem solving skills <br> i can manage time efficently and can perform task at the given time <br> See my Dsa skill on <a href="https://leetcode.com/mohammadkhan6543210/">Leetcode</a></p>
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- ........project section............. -->
+
+  <section class="portfolio" id="portfolio">
     <div class="headercard5">
       <h1 class="about heading"><u>Projects</u></h1>
-      <div class="wrap">
-        <div class="carrd">
-          <img src="Screenshot (4).png" alt="..." width="100%">
-          <h4>MyHealth</h4>
-          <p>This website is build with Html and Css. MyHealth is a site that will help people to live their life healthly</p>
-          <a href="https://myhealth-github-io.vercel.app/" class="resbutton">Visit</a>
+        <div class="portfolio-container">
+          <div class="portfolio-box">
+            <img src="Screenshot (17).png" alt="">
+            <div class="portfolio-layer">
+                <h4>Keeper</h4>
+                <p>Created google-keep clone where we can create and delete our notes </p>
+                <a href="https://keeper-2bfd.vercel.app/"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
         </div>
-        <div class="carrd carrd2">
-          <img src="Screenshot (5).png" alt="..." width="100%">
-          <h4>Netflix Clone</h4>
-          <p class="Netflix">Netflix website have exactly features like Netflix offical site,created using Html and Css</p>
-          <a href="https://netflix-ashen-two.vercel.app/" class="resbutton">Visit</a>
+            <div class="portfolio-box">
+          <img src="Screenshot (18).png" alt="">
+          <div class="portfolio-layer">
+               <h4>WetherApp</h4>
+              <p>Created a weather application where you can see any city's weather condition in world with the usage weathermap api </p>
+              <a href="https://weather-app-five-lemon.vercel.app/"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+      </div>
+            <div class="portfolio-box">
+                <img src="Screenshot (12).png" alt="">
+                <div class="portfolio-layer">
+                     <h4>Movie Review App</h4>
+                    <p>Movie review app created using ReactJS,it have reviews of new movies </p>
+                    <a href="https://movie-review-three.vercel.app/"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Screenshot (13).png" alt="">
+                <div class="portfolio-layer">
+                     <h4>ToDo list</h4>
+                    <p>ToDo list its created using ReactJs ,it is a todo list it will help to keep your todo things at one place</p>
+                    <a href="https://to-dolist-eight.vercel.app/"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+              <img src="Screenshot (16).png" alt="">
+              <div class="portfolio-layer">
+                  <h4>HomyZ</h4>
+                  <p>This website build in Reactjs it has feature of  fully functional any real-estate front-end website</p>
+                  <a href="https://homyz-azure.vercel.app/"><i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+          </div>
+            <div class="portfolio-box">
+              <img src="Screenshot (14).png" alt="">
+              <div class="portfolio-layer">
+                  <h4>GrowMania</h4>
+                  <p>This website build in Reactjs which has a feature of fully functional front-end website</p>
+                  <a href="https://github.com/Hittitech/reco12"><i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+          </div>
+            <div class="portfolio-box">
+                <img src="Screenshot (4).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>MyHealth</h4>
+                    <p>This website is build with Html and Css. MyHealth is a site that will help people to live their life healthly</p>
+                    <a href="https://myhealth-github-io.vercel.app/"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+          <div class="portfolio-box">
+            <img src="Screenshot (15).png" alt="">
+            <div class="portfolio-layer">
+                <h4>College Website</h4>
+                <p>Created a college website with Html and Css skills</p>
+                <a href="https://collegewebsite-pi.vercel.app/"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
         </div>
-         <div class="carrd carrd3">
-          <img src="Screenshot (13).png" alt="..." width="100%">
-          <h4>ToDo list</h4>
-          <p class="Netflix">ToDo list its created using ReactJs ,it is a todo list it will help to keep your todo things at one place </p>
-          <a href="https://to-dolist-eight.vercel.app/" class="resbutton">Visit</a>
+            <div class="portfolio-box">
+                <img src="Screenshot (5).png" alt="">
+                <div class="portfolio-layer">
+                   <h4>Netflix Clone</h4>
+                    <p>Netflix website have exactly features like Netflix offical site created using Html and Css </p>
+                    <a href="https://netflix-ashen-two.vercel.app/"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
         </div>
-         <div class="carrd carrd4">
-          <img src="Screenshot (12).png" alt="..." width="100%">
-          <h4>Movie Review App</h4>
-          <p class="moviereview">Movie review app created using ReactJS,it have reviews of new movies </p>
-          <a href="https://movie-review-three.vercel.app/" class="resbutton">Visit</a>
-        </div>
+    </section>
       </div>
   </div>
     </div>
+
+    <!-- ...contact section..... -->
+    <section id="contact">
     <div class="headercard6">
       <h1 class="contacts heading"><u>Contacts</u></h1>
     <div class="container">
@@ -270,35 +315,19 @@
         </div>
       </div>
     </div>
-
     <div class="contact_form">
       <form onsubmit="sendEmail(); reset();return false;" >
         <h3>GET IN TOUCH</h3>
         <input type="text" id="name" placeholder="Your name " required>
         <input type="email" id="email" placeholder="Your email " required>
         <textarea  id="message"  rows="4" placeholder="How can i help you?"></textarea>
-        <button type="submit"> Send</button>
+       <a href="mailto:mohammadkhan6543210@gmail.com"> Send </a>
       </form>
     </div>
   </div>
 </div>
-    <script src=" https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-      function sendEmail(){
-        Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "mohammadkhan6543210@gmail.com",
-    Password : "A5F7884A4F91DF7DBBC7CC308E470386F97D",
-    To : 'mohammadkhan6543210@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New contact form Enquiry",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-      }
-    </script>
-
+  </section>
+    
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </body>
